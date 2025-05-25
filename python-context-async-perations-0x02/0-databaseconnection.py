@@ -1,6 +1,6 @@
 import sqlite3
 
-class DatabaseConnection(object):
+class DatabaseConnection:
     def __init__(self, db_path):
         self.db_path = db_path
         self.conn = None
